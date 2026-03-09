@@ -64,3 +64,12 @@ html {
 .links a:hover {
   text-decoration: underline;
 }
+
+#now-playing a {
+  color: #c8b8ff;
+  text-decoration: none;
+}
+
+#now-playing a:hover {
+  text-decoration: underline;
+}

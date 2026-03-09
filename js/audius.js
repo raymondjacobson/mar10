@@ -62,7 +62,12 @@
     function updateNowPlaying(track) {
         var el = document.getElementById('now-playing');
         if (!el) return;
-        el.textContent = '\u266B ' + track.title + ' \u2014 ' + (track.user && track.user.name || 'Unknown');
+        var label = '\u266B ' + track.title + ' \u2014 ' + (track.user && track.user.name || 'Unknown');
+        if (track.permalink) {
+            el.innerHTML = '<a href="https://audius.co' + track.permalink + '" target="_blank" rel="noopener">' + label + '</a>';
+        } else {
+            el.textContent = label;
+        }
     }
 
     function fetchTracks(query, callback) {
