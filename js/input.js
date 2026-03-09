@@ -11,7 +11,7 @@
         case 37:
             key = 'LEFT'; break;
         case 38:
-            key = 'UP'; break;
+            key = 'JUMP'; break;
         case 39:
             key = 'RIGHT'; break;
         case 40:
