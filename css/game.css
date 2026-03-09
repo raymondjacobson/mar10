@@ -1,0 +1,66 @@
+html, body, ul, li {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+canvas {
+  display: block;
+  width: 762px;
+  margin: 0 auto;
+  background-color: #7974FF;
+}
+
+body {
+  overflow: hidden;
+  height: 100%;
+  background: #000;
+  font-family: monospace, sans-serif;
+}
+
+html {
+  overflow: hidden;
+  height: 100%;
+}
+
+.info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4px 12px;
+  background: rgba(0,0,0,0.55);
+  color: #fff;
+  font-size: 9px;
+  z-index: 10;
+  gap: 12px;
+}
+
+.controls {
+  white-space: nowrap;
+  opacity: 0.8;
+}
+
+#now-playing {
+  flex: 1;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #c8b8ff;
+  font-size: 9px;
+}
+
+.links a {
+  color: #c8b8ff;
+  text-decoration: none;
+  white-space: nowrap;
+  font-size: 9px;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
