@@ -9,7 +9,7 @@
     var audioEl = null;
     var paused = false;
 
-    var QUERIES = ['mario nintendo', 'SNES mario', 'NES mario', 'super mario', 'mario game'];
+    var QUERIES = ['nintendo'];
     var queryIndex = 0;
     var allTracks = [];
 
