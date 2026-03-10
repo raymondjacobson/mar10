@@ -73,3 +73,9 @@ html {
 #now-playing a:hover {
   text-decoration: underline;
 }
+
+@media (max-width: 600px) {
+  .hide-mobile {
+    display: none;
+  }
+}
